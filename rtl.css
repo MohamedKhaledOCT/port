@@ -1,0 +1,36 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.nav-links {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.hero .subtitle::before {
+    right: 0;
+    left: auto;
+}
+
+.hero .subtitle {
+    padding-right: 60px;
+    padding-left: 0;
+}
+
+.card ul li i {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+.resume-item {
+    padding-right: 35px;
+    padding-left: 0;
+    border-right: 3px solid rgba(212, 175, 55, 0.3);
+    border-left: none;
+}
+
+.resume-item::before {
+    right: -9px;
+    left: auto;
+}
